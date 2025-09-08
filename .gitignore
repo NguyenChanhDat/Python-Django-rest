@@ -1,0 +1,41 @@
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+
+# Django
+*.log
+*.sqlite3
+media/
+static_collected/
+staticfiles/ # If using Django's collectstatic and serving static files
+local_settings.py # Or any file containing sensitive local configurations
+
+# Environment variables
+.env
+.flaskenv
+
+# IDE and OS specific files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Testing and coverage
+.coverage
+.tox/
+htmlcov/
+
+# Other common files
+*.bak
+*.tmp
